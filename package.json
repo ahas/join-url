@@ -1,6 +1,6 @@
 {
     "name": "@ahas/join-url",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Join the urls like joining the paths",
     "main": "dist/index.js",
     "repository": {
