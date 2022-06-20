@@ -1,0 +1,13 @@
+{
+    "name": "@ahas/join-url",
+    "version": "1.0.0",
+    "description": "Join the urls like joining the paths",
+    "main": "dist/index.ts",
+    "repository": "https://github.com/ahas/join-url.git",
+    "author": "ahas",
+    "license": "MIT",
+    "files": [
+        "dist/index.js",
+        "dist/index.d.ts"
+    ]
+}
