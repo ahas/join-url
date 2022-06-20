@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function normalize(args) {
     args = args.map((x) => String(x));
     const resultArray = [];
@@ -53,7 +55,7 @@ function normalize(args) {
     str = parts.shift() + (parts.length > 0 ? "?" : "") + parts.join("&");
     return str;
 }
-export default function (...params) {
+function default_1(...params) {
     let input;
     if (typeof params[0] === "object") {
         input = params[0];
@@ -63,3 +65,4 @@ export default function (...params) {
     }
     return normalize(input);
 }
+exports.default = default_1;

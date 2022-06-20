@@ -1,6 +1,6 @@
 {
     "name": "@ahas/join-url",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Join the urls like joining the paths",
     "main": "dist/index.js",
     "repository": {
@@ -24,7 +24,7 @@
         "url"
     ],
     "scripts": {
-        "build": "tsc -p tsconfig.json",
+        "build": "rm -rf dist && tsc -p tsconfig.json",
         "format": "prettier --write \"src/**/*.ts\""
     },
     "devDependencies": {
